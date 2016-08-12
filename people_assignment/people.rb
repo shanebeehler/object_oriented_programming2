@@ -29,3 +29,10 @@ puts chris.greeting
 christina = Student.new("Christina")
 
 puts christina.greeting
+
+puts chris.teach
+
+puts christina.learn
+
+# christina.teach and chris.learn do not work because they you only inherit from
+# parent class not from sibling classes.
